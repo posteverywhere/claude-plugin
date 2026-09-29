@@ -12,7 +12,7 @@ Write, schedule and publish social media posts from a conversation with Claude. 
 
 ## What's included
 
-**The PostEverywhere connector** (`https://mcp.posteverywhere.ai/claude`) gives Claude tools to list your accounts, create and schedule posts, upload media from a link, manage campaigns, read analytics and retry failed posts. You sign in to your PostEverywhere account the first time you use it.
+**The PostEverywhere connector** (`https://mcp.posteverywhere.ai/claude`) gives Claude tools to list your accounts, create and schedule posts, upload media from a link, manage campaigns, read analytics and retry failed posts. You sign in to your PostEverywhere account the first time you use it. No API key, nothing to install.
 
 **Skills** that teach Claude how to use those tools well:
 
@@ -41,7 +41,8 @@ Claude always shows you a post before it goes live. Nothing is published to your
 - **Claude (claude.ai, desktop, mobile, Cowork):** Customize > Plugins > Add > Add marketplace, then enter `posteverywhere/claude-plugin`.
 - **Claude Code:** `/plugin marketplace add posteverywhere/claude-plugin`, then `/plugin install posteverywhere@posteverywhere`.
 - **Cursor:** install PostEverywhere from the Cursor Marketplace, or add this repository as a plugin.
-- **Other agents that read Agent Skills** (Codex, Gemini CLI, GitHub Copilot and more): `npx skills add posteverywhere/claude-plugin`.
+- **Gemini CLI:** `gemini extensions install https://github.com/posteverywhere/claude-plugin`.
+- **Other agents that read Agent Skills** (Codex, GitHub Copilot and more): `npx skills add posteverywhere/claude-plugin`.
 
 The first time you use it, sign in to PostEverywhere to connect.
 

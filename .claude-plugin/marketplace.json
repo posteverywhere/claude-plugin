@@ -9,7 +9,7 @@
     {
       "name": "posteverywhere",
       "source": "./",
-      "description": "Write, schedule and publish social media posts to 11 platforms and WordPress from Claude, then see how they performed."
+      "description": "Write, schedule and publish social media posts to 12 platforms from Claude, then see how they performed. No API key, nothing to install."
     }
   ]
 }
