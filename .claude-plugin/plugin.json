@@ -1,0 +1,11 @@
+{
+  "name": "posteverywhere",
+  "displayName": "PostEverywhere",
+  "version": "1.0.0",
+  "description": "Write, schedule and publish social media posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord and WordPress from a conversation, then see how they performed.",
+  "author": { "name": "PostEverywhere", "url": "https://posteverywhere.ai" },
+  "homepage": "https://posteverywhere.ai",
+  "repository": "https://github.com/posteverywhere/claude-plugin",
+  "license": "MIT",
+  "keywords": ["social media", "scheduling", "content calendar", "instagram", "tiktok", "linkedin", "youtube", "x", "marketing"]
+}

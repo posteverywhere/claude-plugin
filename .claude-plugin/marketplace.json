@@ -1,0 +1,15 @@
+{
+  "name": "posteverywhere",
+  "owner": {
+    "name": "PostEverywhere",
+    "url": "https://posteverywhere.ai"
+  },
+  "description": "Schedule and publish social media posts from Claude with PostEverywhere.",
+  "plugins": [
+    {
+      "name": "posteverywhere",
+      "source": "./",
+      "description": "Write, schedule and publish social media posts to 11 platforms and WordPress from Claude, then see how they performed."
+    }
+  ]
+}
