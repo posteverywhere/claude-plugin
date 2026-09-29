@@ -23,6 +23,16 @@ Write, schedule and publish social media posts from a conversation with Claude. 
 | `review-post-performance` | Summarises how your posts performed and suggests what to try next |
 | `fix-failed-posts` | Finds posts that failed, explains why, fixes the cause and retries |
 | `connect-social-accounts` | Connects a new social account or reconnects one that stopped working |
+| `repurpose-content` | Turns a blog post, article, transcript or notes into a set of posts for each platform |
+| `brand-voice` | Learns how you write from your published posts and writes a short voice guide for you to confirm |
+| `launch-announcement` | Plans a launch, event or offer as a multi-day campaign: teaser, launch day, reminder and last call |
+| `cross-post-video` | Posts one video to TikTok, Instagram Reels, YouTube Shorts, LinkedIn and Facebook Reels, with a caption for each |
+| `recycle-top-posts` | Finds your best past posts and schedules fresh versions of them, spaced out |
+| `approval-workflow` | Saves posts as drafts for review, makes the changes asked for, and schedules them after approval |
+| `weekly-report` | Writes a short weekly or monthly report, ready to paste into an email |
+| `agency-clients` | Keeps each client's accounts and posts apart, and confirms the client before every action |
+| `write-x-thread-or-article` | Writes an X thread or a long-form X Article (X Premium) |
+| `write-blog-post` | Writes a WordPress blog post with a title, tags, categories and images, as a draft or live |
 
 Claude always shows you a post before it goes live. Nothing is published to your accounts unless you ask for it.
 

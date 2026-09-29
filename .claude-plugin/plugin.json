@@ -1,7 +1,7 @@
 {
   "name": "posteverywhere",
   "displayName": "PostEverywhere",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Write, schedule and publish social media posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord and WordPress from a conversation, then see how they performed.",
   "author": { "name": "PostEverywhere", "url": "https://posteverywhere.ai" },
   "homepage": "https://posteverywhere.ai",
