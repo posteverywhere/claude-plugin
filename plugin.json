@@ -1,15 +1,11 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "posteverywhere",
-  "displayName": "PostEverywhere",
   "version": "1.1.1",
   "description": "Write, schedule and publish social media posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord and WordPress, plan content calendars, and review how posts performed.",
-  "author": { "name": "PostEverywhere", "email": "support@posteverywhere.ai" },
+  "author": { "name": "PostEverywhere", "url": "https://posteverywhere.ai" },
   "homepage": "https://posteverywhere.ai",
   "repository": "https://github.com/posteverywhere/claude-plugin",
   "license": "MIT",
-  "logo": "assets/logo.png",
-  "keywords": ["posteverywhere", "social media", "scheduling", "publishing", "content calendar", "analytics", "mcp"],
-  "category": "integrations",
-  "tags": ["social media", "scheduling", "marketing", "mcp"],
-  "mcpServers": "./mcp.json"
+  "keywords": ["posteverywhere", "social-media", "scheduling", "content-calendar", "instagram", "tiktok", "linkedin", "x", "copilot", "claude", "codex", "cursor", "mcp"]
 }
