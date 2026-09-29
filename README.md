@@ -36,6 +36,15 @@ Write, schedule and publish social media posts from a conversation with Claude. 
 
 Claude always shows you a post before it goes live. Nothing is published to your accounts unless you ask for it.
 
+## Install
+
+- **Claude (claude.ai, desktop, mobile, Cowork):** Customize > Plugins > Add > Add marketplace, then enter `posteverywhere/claude-plugin`.
+- **Claude Code:** `/plugin marketplace add posteverywhere/claude-plugin`, then `/plugin install posteverywhere@posteverywhere`.
+- **Cursor:** install PostEverywhere from the Cursor Marketplace, or add this repository as a plugin.
+- **Other agents that read Agent Skills** (Codex, Gemini CLI, GitHub Copilot and more): `npx skills add posteverywhere/claude-plugin`.
+
+The first time you use it, sign in to PostEverywhere to connect.
+
 ## Requirements
 
 - A PostEverywhere account with a plan or an active free trial. Start at [posteverywhere.ai](https://posteverywhere.ai).
