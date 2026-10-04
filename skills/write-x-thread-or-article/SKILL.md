@@ -18,11 +18,12 @@ A **thread** is a chain of short posts, each a reply to the one before. An **X A
 1. **Plan it.** 3 to 10 parts. The first part is the hook: it must work on its own, because most people see only that one.
 2. **Write each part** in 280 characters or fewer (X Premium accounts can go longer; `get_platform_rules` has the limit). One idea per part. Number the parts (1/6) only if the user likes that.
 3. **Show the thread.** Show every part with its character count. Ask the user to confirm.
-4. **Post it.** The connector's post tools send one post, not a linked thread. Tell the user, and offer these choices:
-   - **As a real thread:** create the first part as a draft with `create_post` (`draft: true`, the X `account_ids`). Give the user the other parts to add as a thread in the PostEverywhere app before they schedule it.
-   - **As an X Article** if the account is on X Premium (see below).
-   - **As one post:** join the parts into a single post if it fits the account's limit.
-   Don't schedule the parts as separate posts unless the user asks. They would not be linked as replies.
+4. **Post it as a real thread.** Call `create_post` with the X `account_ids`, `content` set to part 1, and `thread_posts` set to the other parts, in order. PostEverywhere posts each part as a reply to the one before, so it goes out as one linked thread.
+   - To let the user check it first, add `draft: true`. After they confirm, call `schedule_post` with the `post_id` and `scheduled_for` (with `timezone`) or `publish_now: true`. The whole thread goes out.
+   - Threads and Bluesky accounts can take the same thread (Threads allows 500 characters a part, Bluesky 300). Other accounts in the same post get only part 1, so make a separate post for them.
+   - If a part is too long, the post is refused before anything goes out and the error names the part. Shorten that part or split it, then try again.
+   - After it publishes, call `get_post_results` and give the user the link.
+   Don't schedule the parts as separate posts. They would not be linked as replies.
 
 ## Write an X Article
 
@@ -37,5 +38,6 @@ A **thread** is a chain of short posts, each a reply to the one before. An **X A
 ## Be careful
 
 - An article goes to X accounts only. If the user also wants other platforms, make a separate post for them.
+- A post is a thread or an article, not both: `thread_posts` can't be used with an X Article.
 - X Articles need X Premium. Ask the user if the account has it before you choose an article.
 - Don't invent facts, numbers or quotes to fill a thread or an article.
