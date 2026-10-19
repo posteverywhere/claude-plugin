@@ -1,6 +1,6 @@
 # PostEverywhere for Claude
 
-Write, schedule and publish social media posts from a conversation with Claude. PostEverywhere posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord and WordPress from one place, and shows you how your posts performed.
+Write, schedule and publish social media posts from a conversation with Claude. PostEverywhere posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord, WordPress and [Google Business Profile](https://posteverywhere.ai/google-business-profile) from one place, and shows you how your posts performed.
 
 ## What you can ask Claude
 
